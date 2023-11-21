@@ -1,0 +1,60 @@
+/************** Resume Styles **************/
+body {
+  font-family: monospace, 'Courier New', Courier;
+  font-size: 14px;
+  background-color: #b6b6b6;
+  max-width: 800px;
+  width: 80%;
+}
+
+/*********** Title-Section ***********/
+.main-heading {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*********** End Title-Section ***********/
+
+
+
+/************* Main-Contetnt ************/
+#container {
+  position: absolute;
+}
+
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+  background-color: #f00;
+  height: 2px;
+}
+
+#prof {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+p {
+  text-align: center;
+}
+
+/************* End Main-Contetnt ************/
+
+
+
+/************* Contact links Section ************/
+.first-footer {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+/************* End Contact links Section *******/
