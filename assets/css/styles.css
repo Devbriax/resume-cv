@@ -1,7 +1,7 @@
 /************** Resume Styles **************/
 body {
   font-family: monospace, 'Courier New', Courier;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #b6b6b6;
   max-width: 800px;
   width: 80%;
@@ -12,9 +12,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
+  background-color: springgreen;
+  border-radius: 1em;
   padding-left: 1em;
   padding-right: 1em;
 }
+
+.main-heading h2 {}
 
 /*********** End Title-Section ***********/
 
@@ -36,12 +40,21 @@ hr {
   height: 2px;
 }
 
-#prof {
+#article-section {
   padding-left: 2em;
   padding-right: 2em;
 }
 
 p {
+  text-align: center;
+}
+
+article {
+  background-color: springgreen;
+  border-radius: 1em;
+}
+
+article h3 {
   text-align: center;
 }
 
@@ -51,10 +64,12 @@ p {
 
 /************* Contact links Section ************/
 .first-footer {
+  font-weight: bold;
   display: flex;
   text-transform: uppercase;
   justify-content: space-evenly;
   padding: 1em;
 }
 
+first-footer a
 /************* End Contact links Section *******/
