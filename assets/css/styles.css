@@ -1,75 +1,14 @@
-/************** Resume Styles **************/
-body {
-  font-family: monospace, 'Helvetica', Courier;
-  font-size: 16px;
-  background-color: #b6b6b6;
-  max-width: 800px;
-  width: 80%;
-}
+/************* FIRST-LAST-NAME+NAVIGATION LINKS ************************/
+/************* END-FIRST-LAST-NAME+NAVIGATION LINKS ************************/
 
-/*********** Title-Section ***********/
-.main-heading {
-  display: flex;
-  justify-content: space-evenly;
-  text-transform: uppercase;
-  background-color: springgreen;
-  border-radius: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-}
+/************* TOP-HEADING-IMAGE ************************/
+/************* END-TOP-HEADING-IMAGE ************************/
 
-.main-heading h2 {}
+/************* MAIN-CONTENT *******************/
+/************* END-MAIN-CONTENT *******************/
 
-/*********** End Title-Section ***********/
+/************* CONTACT+BOTTOM-IMAGE **********************/
+/************* END-CONTACT+BOTTOM-IMAGE **********************/
 
-
-
-/************* Main-Contetnt ************/
-#container {
-  position: absolute;
-}
-
-h4 {
-  text-transform: uppercase;
-  text-align: center;
-}
-
-hr {
-  width: 60%;
-  background-color: #f00;
-  height: 2px;
-}
-
-#article-section {
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-p {
-  text-align: center;
-}
-
-article {
-  background-color: springgreen;
-  border-radius: 1em;
-}
-
-article h3 {
-  text-align: center;
-}
-
-/************* End Main-Contetnt ************/
-
-
-
-/************* Contact links Section ************/
-.first-footer {
-  font-weight: bold;
-  display: flex;
-  text-transform: uppercase;
-  justify-content: space-evenly;
-  padding: 1em;
-}
-
-first-footer a
-/************* End Contact links Section *******/
+/************* FOOTER-SECTION *****************/
+/************* END-FOOTER-SECTION *****************/
