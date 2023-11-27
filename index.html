@@ -13,32 +13,29 @@
       <div class="main-content">
         <!--- FIRST-LAST-NAME + NAVIGATION LINKS --->
         <header class="main-heading">
-          <div class="names">
-            <h2>Brian Mabaso</h2>
-            <h2>Junior Web Developer</h2>
-          </div>
-          <div class="nav-links">
-            <ul>
-              <li id="about">About</li>
-              <li id="education">Education</li>
-              <li id="experience">Exprienece</li>
-              <li id="skills">Skills</li>
-              <li id="projects">Projects</li>
+          <nav class="nav-bar">
+            <h2>Brian Mabaso | Junior Web Developer</h2>
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experience">Exprienece</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
             </ul>
-          </div>
+          </nav>
         </header>
         <!--- End FIRST-LAST-NAME + NAVIGATION LINKS --->
 
         <!--- TOP-HEADING-IMAGE --->
         <section class="top-heading-image">
-          <img src="" alt="axe-hammer-image-right">
-          <img src="" alt="axe-hammer-image-left">
+          <img src="assets/images/green-axe-img.png" alt="axe-hammer-image-right" width="300px" height="300px">
+          <img src="assets/images/green-axe-img.png" alt="axe-hammer-image-left" width="300px" height="300px">
         </section>
         <!--- END-TOP-HEADING-IMAGE --->
 
         <!--- MAIN-CONTENT --->
         <div class="main-content">
-          <section class="about">
+          <section id="about">
 
             <hr />
 
@@ -68,7 +65,7 @@
 
           </section>
 
-          <section class="education">
+          <section id="education">
 
             <article>
               <h3>education</h3>
@@ -96,7 +93,7 @@
 
           </section>
 
-          <section class="experience">
+          <section id="experience">
 
             <article>
               <h3>experience</h3>
@@ -124,29 +121,49 @@
 
           </section>
 
-          <section class="skills">
+          <section id="skills">
             <h3>skills</h3>
             <div class="container-image">
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
-              <img src="" alt="" width="" ; height="" ; />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg"
+                width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-original.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+                width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
+                width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filezilla/filezilla-plain.svg" width="5%" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="5%" />
               <hr />
             </div>
           </section>
 
-          <section class="projects">
+          <section id="projects">
             <h3>projects</h3>
-            <div class="container-image">
-              <img src="" alt="" width="400" ; height="415" ;>
-              <img src="" alt="" width="400" ; height="415" ;>
-              <img src="" alt="" width="400" ; height="415" ;>
+            <div class="card-container">
+              <ul>
+                <li class="card">
+                  <img src="" alt="img" width="300" height="350">
+                  <h3>Camp Lights</h3>
+                  <p>Illuminate your campsite with our reliable and energy-efficient camping lights.</p>
+                </li>
+                <li class="card">
+                  <img src="" alt="img" width="300" height="350">
+                  <h3>Camp Lights</h3>
+                  <p>Illuminate your campsite with our reliable and energy-efficient camping lights.</p>
+                </li>
+                <li class="card">
+                  <img src="" alt="img" width="300" height="350">
+                  <h3>Camp Lights</h3>
+                  <p>Illuminate your campsite with our reliable and energy-efficient camping lights.</p>
+                </li>
+              </ul>
 
               <hr />
 
@@ -162,24 +179,24 @@
               <h2 class="bottom-header">Say Hi!</h2>
               <label for="contact">
                 Email
-                <input type="email" name="email" required placeholder="amandaexample@email.com"><br>
+                <input type="email" name="email" required placeholder="amandaexample@email.com"><br />
                 Phone
-                <input type="tel" name="phone" id="tel-phone" placeholder="(+27) 246-810-1214"><br>
+                <input type="tel" name="phone" id="tel-phone" placeholder="(+27) 246-810-1214"><br />
                 Message
-                <input type="text/textarea" name="message" id="textarea" width="350px" height="200"><br>
+                <textarea name="message" id="textarea" cols="30" rows="10"></textarea><br />
                 <button type="button" name="submit">submit</button>
               </label>
             </form>
           </aside>
           <aside class="bottom-image"><!-- Add QR code linked to website instead -->
-            <img src="" alt="" width="400px" height="400px">
+            <img src="" alt="" width="200px" height="200px">
           </aside>
         </section>
         <!-- END CONTACT + BOTTOM-IMAGE -->
 
         <!-- FOOTER-SECTION -->
         <footer class="first-footer">
-          <a href="http://" target="_blank" rel="noopener noreferrer">Github:Devbriax</a><br>
+          <a href="https://devbriax.github.io" target="_blank" rel="noopener noreferrer">Github:Devbriax</a><br>
 
           <div id="second-footer">
             <small class="email-link">
