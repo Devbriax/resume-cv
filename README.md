@@ -8,14 +8,13 @@
 
  ///Its a single page thats broken down into sections:
  - Header-section
- - Image-section - (Profile-section)
  - Main-section   
  * Skills-section 
  * Education-section 
  * Projects-section 
  * Experience-section 
  - Footer-section:
- * Submition-formblock
+
  * Image block/Logo-block
  * Add Github icon and Website QR-code
  
@@ -29,7 +28,6 @@
  - Projects-section - 3 project blocks.
  - Experience-section - article.
  - Footer-section: 
- - Submition-formblock - Form-section block
  - Image block/Logo-block - Image block.
 -----------------------------------------------+
 ///Color tones for the backgrounds:
