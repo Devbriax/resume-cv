@@ -1,17 +1,25 @@
 # resume-cv-repo
+- Single page resume solution.
 
-This is a simple resume solution, built with the use of HTML5 and CSS3 as tools 
+# Content
+========
+- ## Project & Section breakdown
+- ## Page Structure Layout
+- ## Color Pallets
+- ## Languages
+- ## Fonts
+- ## Links 
+
+<**********************************************************************>
 
 # Project & Section breakdown:
+=========================
 - Single page resume
 - Top-section: Details. 
-- Split into two columns.
+- Main content section being split into two columns.
 
-# Structure Layout: 
-- 
-- 
-
-# Page section:
+# Page Structure Layout:
+====================
  - Details
  - Summary
  - Experience 
@@ -22,21 +30,28 @@ This is a simple resume solution, built with the use of HTML5 and CSS3 as tools
  - Achievements 
  - Collaborations
 
-# Color Tones:
-- background-color = #5F0F40 - purple dark shade.
-- text color = #9A031E - maroon dark shade.
-- hr color = #E36414 / #FB8B24 - orange two shades
+# Color Pallets:
+============
+- #820300 - Maroon
+- #B80000 - Red
+- #FF9800 - orange 
+- #5F8670 - grey 
+
+# Languages:
+===========
+- HTML5
+- CSS3
 
 # Fonts:
+======
  - Space_Mono
  - Roboto_Mono
  - Noto_Sans
 
-
-# Language icone links:        
+# Links:        
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
 
- 
+ <*********************************************************************>
