@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica', arial, helvetica;
+}
+
+
 /************* MAIN-STYLING ************************/
 
 a {
@@ -10,6 +17,7 @@ a {
 /************* HEADER-SECTION *******************/
 #main-wrapper {
   background-color: #820300;
+
 }
 
 header {
@@ -48,12 +56,13 @@ hr {
 /************** MAIN-SECTION **************/
 .content {
   display: inline-flex;
+  align-content: space-around;
+  justify-content: space-evenly;
 }
 
 .first-col article {
   padding: 10px 15px;
-  margin: 1em;
-  border: groove;
+  margin: 35px;
 }
 
 .first-col {
@@ -63,8 +72,7 @@ hr {
 
 .second-col article {
   padding: 10px 15px;
-  margin: 1em;
-  border: groove;
+  margin: 35px;
 }
 
 .second-col {
