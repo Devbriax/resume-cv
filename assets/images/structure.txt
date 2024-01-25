@@ -1,0 +1,28 @@
+## Resume Web page build: Restructuring. 
+
+# Home:
+- This section will serve as an introduction to your resume and provide a brief summary of your skills, qualifications, and goals. 
+- You can include a professional photo and a short bio here.
+
+#Portfolio: 
+- In this section, you can showcase your work samples, projects, or any other relevant achievements. 
+- You can display images, provide descriptions, and include links to the actual projects or documents.
+
+#Experience: 
+- Here, you can list your work experience in a chronological order, starting with the most recent position. 
+- Include the company name, job title, dates of employment, and a brief description of your responsibilities and achievements.
+
+#Education 
+- This section should include details about your educational background. 
+- List your degrees, certificates, or any relevant courses you've completed. 
+- Include the institution's name, graduation date, and any honors or distinctions you received.
+
+#Contact:
+- Provide your contact information in this section, including your full name, phone number, email address, and links to your professional social media profiles (e.g., LinkedIn). 
+- You can also include a contact form for visitors to reach out to you directly from the website.
+- To create a single-page resume website, you can use a responsive web design framework like Bootstrap or Foundation. 
+- These frameworks offer pre-built components and responsive grid systems that will help you create a visually appealing and mobile-friendly website.
+- Remember to keep the design clean, professional, and easy to navigate. 
+- Use a consistent color scheme, legible fonts, and appropriate spacing to enhance readability. 
+- You can also add subtle animations or interactive elements to make your website more engaging.
+- Once you have the basic structure and design in place, you can start coding the website using HTML, CSS, and JavaScript. 
