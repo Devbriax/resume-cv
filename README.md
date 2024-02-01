@@ -1,4 +1,4 @@
-# Resume-cv-repo
+# Resume-cv
 ==============
 - Single page resume solution.
 
