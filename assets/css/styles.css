@@ -1,56 +1,82 @@
+:root {
+  --font-family: url();
+  --font-color: #080705;
+  /** Black **/
+  --paragraph-color: #362023;
+  /** Licorice **/
+  --primary-color: #700548;
+  /** Tyrian Purple **/
+  --secondary-color: #7272AB;
+  /**Glaucou **/
+  --tertiary-color: #7899D4;
+  /** Vista Blue**/
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'helvetica', arial, helvetica;
+  font-family: monospace, serif;
+  font-weight: 600;
 }
-
 
 /************* MAIN-STYLING ************************/
 
 a {
   text-decoration: none;
-  color: #5F8670;
+  color: var(--tertiary-color);
 }
 
 /************* END-MAIN-STYLING ******************/
 
 /************* HEADER-SECTION *******************/
 #main-wrapper {
-  background-color: #820300;
+  background-color: var(--primary-color);
 
 }
 
 header {
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  background-color: var(--secondary-color);
 }
 
 .details {
   display: flex;
-  justify-content: space-evenly;
-  background-color: #820300;
+  justify-content: space-between;
+  /* align-content: center; */
+  align-items: center;
 }
+
+.heading-copy {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
 
 .heading-copy h3 {
   text-transform: uppercase;
-  color: #5F8670;
+  color: var(--font-color);
 }
 
 .heading-copy p {
   text-decoration: none;
-  color: #5F8670;
+  color: var(--font-color);
 }
 
 .bio-pic img {
   border-radius: 10vh;
-  border-color: #5F8670;
+  border-color: var(--primary-color);
 }
 
 /************* END-HEADER-SECTION *******************/
 hr {
   width: 75px;
+  color: var(--paragraph-color);
 }
 
 /************** MAIN-SECTION **************/
@@ -63,30 +89,36 @@ hr {
 .first-col article {
   padding: 10px 15px;
   margin: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
 }
 
 .first-col {
-  background-color: #820300;
+  background-color: var(--primary-color);
 }
 
 
 .second-col article {
   padding: 10px 15px;
   margin: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
 }
 
 .second-col {
-  background-color: #820300;
+  background-color: var(--primary-color);
 }
 
 article h3 {
   text-transform: uppercase;
-  color: #5F8670;
+  color: var(--font-color);
 }
 
 article p {
   text-align: left;
-  color: #5F8670;
+  color: var(--font-color);
 }
 
 /************** END-MAIN-SECTION **************/
@@ -96,8 +128,17 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
-  color: #5F8670;
-  background-color: #820300;
+  color: var(--font-color);
+  background-color: var(--primary-color);
 }
 
 /************** END-FOOTER-SECTION **************/
+
+/************* MEDIA-QUERIES ******************/
+/** MOBILE **/
+@media screen and (min-width: 375px) {}
+
+/** DESKTOP **/
+@media screen and (min-width: 1336px) {}
+
+/************* MEDIA-QUERIES ******************/

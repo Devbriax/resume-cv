@@ -46,9 +46,8 @@
 
 # Fonts:
 ======
- - Space_Mono
- - Roboto_Mono
- - Noto_Sans
+ - monospace; 
+ - sans-serif
 
 # Links:        
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
