@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-  --font-family: url();
+  --font-family: "Roboto Condensed", sans-serif;
+  /** Font**/
   --font-color: #080705;
   /** Black **/
   --paragraph-color: #362023;
@@ -15,8 +18,9 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: monospace, serif;
+  font-family: var(--font-family);
   font-weight: 600;
+  font-style: normal;
 }
 
 /************* MAIN-STYLING ************************/
@@ -31,7 +35,6 @@ a {
 /************* HEADER-SECTION *******************/
 #main-wrapper {
   background-color: var(--primary-color);
-
 }
 
 header {
@@ -39,8 +42,8 @@ header {
   padding-bottom: 1em;
   padding-right: 1em;
   padding-left: 1em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  /* margin-top: 0.5em; */
+  /* margin-bottom: 0.5em; */
   background-color: var(--secondary-color);
 }
 
@@ -74,24 +77,27 @@ header {
 }
 
 /************* END-HEADER-SECTION *******************/
-hr {
-  width: 75px;
-  color: var(--paragraph-color);
-}
 
 /************** MAIN-SECTION **************/
 .content {
-  display: inline-flex;
-  align-content: space-around;
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: -webkit-fill-available;
+}
+
+article {
+  width: 600px;
+  height: auto;
 }
 
 .first-col article {
-  padding: 10px 15px;
-  margin: 35px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: aliceblue;
+ padding: 10px 15px;
+ margin: 35px;
+ border: 5px solid black;
+ border-radius: 10px;
+ background-color: aliceblue;
 }
 
 .first-col {
@@ -102,7 +108,7 @@ hr {
 .second-col article {
   padding: 10px 15px;
   margin: 35px;
-  border: 1px solid black;
+  border: 5px solid black;
   border-radius: 10px;
   background-color: aliceblue;
 }
@@ -114,11 +120,17 @@ hr {
 article h3 {
   text-transform: uppercase;
   color: var(--font-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
 }
 
 article p {
   text-align: left;
   color: var(--font-color);
+}
+
+ul li {
+list-style-type:none ;
 }
 
 /************** END-MAIN-SECTION **************/
@@ -136,9 +148,13 @@ footer {
 
 /************* MEDIA-QUERIES ******************/
 /** MOBILE **/
-@media screen and (min-width: 375px) {}
+@media screen and (min-width: 375px) {
+
+}
 
 /** DESKTOP **/
-@media screen and (min-width: 1336px) {}
+@media screen and (min-width: 1336px) {
+
+}
 
 /************* MEDIA-QUERIES ******************/
