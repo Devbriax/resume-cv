@@ -2,7 +2,7 @@
 
 ==============
 
-- Single page resume solution.
+- Single page resume solution. [(https://devbriax.github.io/resume-cv/)]
 
 # Content
 
@@ -15,7 +15,7 @@
 - ## Fonts
 - ## Links
 
-<******\*\*\*\*******\*\*******\*\*\*\*******\*\*******\*\*\*\*******\*\*******\*\*\*\*******>
+<**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***>
 
 # Project & Section breakdown:
 
@@ -70,4 +70,4 @@
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"  width="300px" height="auto" />
  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"  width="300px" height="auto"/>
 
-<******\*\*\*\*******\*\*******\*\*\*\*******\*******\*\*\*\*******\*\*******\*\*\*\*******>
+<**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***>
