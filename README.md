@@ -1,23 +1,23 @@
-# Resume-cv
+## Resume-cv
 
 ==============
 
-- Single page resume solution. [(https://devbriax.github.io/resume-cv/)]
+- Single page resume solution. (https://devbriax.github.io/resume-cv/)
 
-# Content
+## Content
 
 ========
 
-- ## Project & Section breakdown
-- ## Page Structure Layout
-- ## Color Paletts
-- ## Languages
-- ## Fonts
-- ## Links
+- ### Project & Section breakdown
+- ### Page Structure Layout
+- ### Color Paletts
+- ### Languages
+- ### Fonts
+- ### Links
 
-<**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***>
+=============================
 
-# Project & Section breakdown:
+## Project & Section breakdown:
 
 =========================
 
@@ -25,7 +25,7 @@
 - Top-section: Details.
 - Main content section being split into two columns.
 
-# Page Structure Layout:
+## Page Structure Layout:
 
 ====================
 
@@ -39,7 +39,7 @@
 
 - Education:[This section should include details about your educational background. List your degrees, certificates, or any relevant courses you've completed. Include the institution's name, graduation date, and any honors or distinctions you received.]
 
-# Color Palette:
+## Color Palette:
 
 ============
 
@@ -49,25 +49,26 @@
 - #7272AB - Glaucous - rbg(114,114,171)--SECONDARY-COLOR
 - #7899D4 - Vista Blue - rbg(120,153,212)--TERTIARY-COLOR
 
-# Languages:
+## Languages:
 
 ===========
 
 - HTML5
 - CSS3
 
-# Fonts:
+## Fonts:
 
-======
+=======
 
 - Roboto condensed;
 - sans-serif
 
-# Links:
+## Links:
 
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="300px" height="auto"/>
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="300px" height="auto" />
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"  width="300px" height="auto" />
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"  width="300px" height="auto"/>
+========
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="300px" height="auto"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="300px" height="auto" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"  width="300px" height="auto" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"  width="300px" height="auto"/>
 
-<**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***>
+========

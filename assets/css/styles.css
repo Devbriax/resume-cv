@@ -19,7 +19,7 @@
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -77,19 +77,55 @@ header {
 }
 
 /************* END-HEADER-SECTION *******************/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "first-col second-col";
+}
 
+.first-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "."
+    "."
+    "."
+    ".";
+  grid-area: first-col;
+}
+
+.second-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "."
+    "."
+    "."
+    ".";
+  grid-area: second-col;
+}
 /************** MAIN-SECTION **************/
 .content {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: -webkit-fill-available;
+  width:100%;
 }
 
 article {
   width: 600px;
   height: auto;
+  box-sizing: content-box;
 }
 
 .first-col article {
@@ -148,13 +184,13 @@ footer {
 
 /************* MEDIA-QUERIES ******************/
 /** MOBILE **/
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
 
 }
 
 /** DESKTOP **/
-@media screen and (min-width: 1336px) {
+@media screen and (max-width: 1336px) {
 
-}
+} 
 
 /************* MEDIA-QUERIES ******************/
