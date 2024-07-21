@@ -76,7 +76,7 @@ header {
   border-color: var(--primary-color);
 }
 
-/************* END-HEADER-SECTION *******************/
+/************* END-HEADER-SECTION **************/
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
