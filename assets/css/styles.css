@@ -3,13 +3,10 @@
 :root {
   --font-family: "Roboto Condensed", sans-serif;
   /** Font**/
-  --font-color: #7cec5f;
   /** Black **/
   --paragraph-color: #933a46;
   /** Licorice **/
   --primary-color: #bc157f;
-  /** Tyrian Purple **/
-  --secondary-color: #3030ef;
   /**Glaucou **/
   --tertiary-color: #98add2;
   /** Vista Blue**/
@@ -19,24 +16,89 @@
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
+  font-size: 12px;
   font-weight: 400;
   font-style: normal;
 }
 
 /************* MAIN-STYLING ************************/
 
+body {
+  background-color: #fff;
+}
 
+h3 {
+  color: var(--tertiary-color);
+}
 
+.main-container {
+  padding-top: 2em;
+  display: block;
+  justify-items: center;
+  background-image: url('/assets/images/pexels-sebastian-palomino-933481-1955134.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+    background: papayawhip;
+    padding: 20px;
+    width: 500px;
+    line-height: 1.7em;
+    border-radius: 2em;
+}
+
+section h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2px;
+  text-decoration-line: underline;
+}
 /************* END-MAIN-STYLING ****************/
 
 /************* HEADER-SECTION *******************/
+header {
+  background-color: var(--primary-color);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: right;
+  text-transform: uppercase;
+}
 
 /************** MAIN-SECTION **************/
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+    background-color: var(--tertiary-color);
+    padding-top: 0.5em;
+    padding-bottom: 0.8em;
+    }
+
+nav a {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 4px;
+ justify-content: space-evenly;
+}
 
 /************** END-MAIN-SECTION **************/
-
+main {
+  
+}
 /************** FOOTER-SECTION **************/
+footer {
+ background-color: var(--primary-color);
+ padding-top: 2em;
+ padding-bottom: 2em;
+}
 
+.bottom-section {
+  text-align: center;
+}
 /************** END-FOOTER-SECTION **************/
 
 /************* MEDIA-QUERIES ******************/
