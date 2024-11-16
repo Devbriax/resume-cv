@@ -1,5 +1,5 @@
 # #Cv-Resume
-- Single page resume solution. (#)
+- Single page resume solution. (https://devbriax.github.io/resume-cv/)
 
 # #Content:
 - ## Project & Section breakdown
