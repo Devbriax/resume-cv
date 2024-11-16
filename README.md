@@ -1,6 +1,6 @@
 # ##Cv-Resume
 
-- Single page resume solution. (#)
+- Single page resume solution. (https://devbriax.github.io/resume-cv/)
 
 # ##Content
 
@@ -49,6 +49,6 @@
 
 # ##Links:
 
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="85px" height="auto"/>
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="85px" height="auto" />
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35px" height="35px"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="35px" height="35px" />
 
