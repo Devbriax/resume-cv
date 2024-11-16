@@ -43,5 +43,6 @@
 - sans-serif;
 
 # #Links:
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="85px" height="auto"/>
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="85px" height="auto" />
+- https://www.dofactory.com/html/
+- https://css-tricks.com/moving-backgrounds/
+- https://developer.mozilla.org/en-US/
